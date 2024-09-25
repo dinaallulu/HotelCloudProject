@@ -41,7 +41,6 @@ if (isset($_POST['check'])) {
    }
 }
 
-
 // Check if the "book" button is submitted (for booking a room)
 if (isset($_POST['book'])) {
 
@@ -141,19 +140,15 @@ if (isset($_POST['send'])) {
    <meta http-equiv="X-UA-Compatible" content="IE=edge">
    <meta name="viewport" content="width=device-width, initial-scale=1.0">
    <title>StaySuite</title>
-
    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.css" />
-
    <!-- font awesome cdn link  -->
    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css">
    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@24,400,0,0">
-
    <!-- custom css file link  -->
    <link rel="stylesheet" href="css/style.css">
 </head>
 
 <body>
-
    <?php include 'components/user_header.php'; ?>
 
    <!-- home section starts  -->
@@ -426,26 +421,22 @@ if (isset($_POST['send'])) {
             <div class="swiper-slide box">
                <img src="images/pic-1.png" alt="">
                <h3>Kareem Mohammed</h3>
-               <p>The website made planning my trip so easy. The hotel was exactly as advertised, with beautiful rooms and excellent
-                  service. I’m already planning my next visit!</p>
+               <p>The website made planning my trip so easy. The hotel was exactly as advertised, with beautiful rooms and excellent service. I’m already planning my next visit!</p>
             </div>
             <div class="swiper-slide box">
                <img src="images/pic-2.png" alt="">
                <h3>Sarah Ali</h3>
-               <p>An outstanding stay! The website was easy to navigate, and booking was a breeze. The hotel exceeded my expectations with
-                  its luxurious rooms and exceptional service.</p>
+               <p>An outstanding stay! The website was easy to navigate, and booking was a breeze. The hotel exceeded my expectations with its luxurious rooms and exceptional service.</p>
             </div>
             <div class="swiper-slide box">
                <img src="images/pic-3.png" alt="">
                <h3>Mohammed Ahmed</h3>
-               <p>I had a wonderful experience from start to finish. The site provided clear information and beautiful photos that matched
-                  perfectly with what I found upon arrival. Highly recommend</p>
+               <p>I had a wonderful experience from start to finish. The site provided clear information and beautiful photos that matched perfectly with what I found upon arrival. Highly recommend</p>
             </div>
             <div class="swiper-slide box">
                <img src="images/pic-4.png" alt="">
                <h3>Rama Hossam</h3>
-               <p>Great website and even better hotel. The detailed descriptions and photos helped me choose the perfect room, and the
-                  on-site experience was fantastic. Five stars!.</p>
+               <p>Great website and even better hotel. The detailed descriptions and photos helped me choose the perfect room, and the on-site experience was fantastic. Five stars!.</p>
             </div>
             <div class="swiper-slide box">
                <img src="images/pic-5.png" alt="">

@@ -88,21 +88,17 @@ if (isset($_POST['cancel'])) {
                      <input type="submit" value="cancel booking" name="cancel" class="btn" onclick="return confirm('cancel this booking?');">
                   </form>
                </div>
-
             <?php
             }
          } else {
             ?>
-
             <div class="box" style="text-align: center;">
                <p style="padding-bottom: .5rem; text-transform:capitalize;">No Bookings Found!</p>
                <a href="index.php#reservation" class="btn">Book New</a>
             </div>
-
          <?php
          }
          ?>
-
       </div>
    </section>
    <!-- booking section ends -->
@@ -115,6 +111,5 @@ if (isset($_POST['cancel'])) {
    <script src="js/script.js"></script>
 
    <?php include 'components/message.php'; ?>
-
 </body>
 </html>

@@ -42,10 +42,8 @@ if(isset($_POST['delete'])){
    <meta http-equiv="X-UA-Compatible" content="IE=edge">
    <meta name="viewport" content="width=device-width, initial-scale=1.0">
    <title>Admins</title>
-
    <!-- font awesome cdn link  -->
    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css">
-
    <!-- custom css file link  -->
    <link rel="stylesheet" href="../css/admin_style.css">
 </head>
@@ -91,11 +89,9 @@ if(isset($_POST['delete'])){
 <!-- admins section ends -->
 
 <script src="https://cdnjs.cloudflare.com/ajax/libs/sweetalert/2.1.2/sweetalert.min.js"></script>
-
 <!-- custom js file link  -->
 <script src="../js/admin_script.js"></script>
 
 <?php include '../components/message.php'; ?>
-
 </body>
 </html>

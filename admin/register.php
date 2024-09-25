@@ -1,5 +1,4 @@
 <?php
-
 include '../components/connect.php';
 
 // Check if 'admin_id' cookie exists (meaning the admin is logged in)
@@ -78,13 +77,10 @@ if(isset($_POST['submit'])){
 </section>
 <!-- register section ends -->
 
-
 <script src="https://cdnjs.cloudflare.com/ajax/libs/sweetalert/2.1.2/sweetalert.min.js"></script>
-
 <!-- custom js file link  -->
 <script src="../js/admin_script.js"></script>
 
 <?php include '../components/message.php'; ?>
-
 </body>
 </html>
