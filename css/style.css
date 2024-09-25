@@ -560,4 +560,10 @@ section {
    .bookings .box-container {
       grid-template-columns: 1fr;
    }
+
+   .header .flex .logo .material-symbols-outlined {
+      font-size: 3rem;
+      position: relative;
+      top: 5px;
+   }
 }
